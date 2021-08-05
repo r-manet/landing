@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;800&family=Spectral:wght@500;700&display=swap');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Spectral', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: flex-end;
+
+}
+
+.header-banner {
+  padding: 15px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.header-banner h1, .header-banner p {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+
+.header-banner h1 {
+  font-size: 50px;
+}
+
+.btn-header {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.column {
+  width: 20%;
+}
+
+
+.footer {
+  background-color: black;
+  height: 70px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon:hover {
+  color: red;
+}
